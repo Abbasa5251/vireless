@@ -33,7 +33,13 @@ function Contact() {
 
 	const validatePhoneNumber = (str_number) => {
 		var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
-		return re.test(str_number);
+		return re.test(str_number.toLowerCase().trim());
+	};
+
+	const validateEmail = (str_email) => {
+		var re =
+			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		return re.test(str_email.toLowerCase().trim());
 	};
 
 	const handleSubmit = (e) => {
@@ -41,7 +47,7 @@ function Contact() {
 			setStatus({
 				success: false,
 				error: true,
-				message: "Please enter First name",
+				message: "Please enter first name",
 			});
 			return;
 		}
@@ -49,7 +55,7 @@ function Contact() {
 			setStatus({
 				success: false,
 				error: true,
-				message: "Please enter Last name",
+				message: "Please enter last name",
 			});
 			return;
 		}
@@ -57,14 +63,14 @@ function Contact() {
 			setStatus({
 				success: false,
 				error: true,
-				message: "Please enter Email",
+				message: "Please enter email",
 			});
 			return;
 		}
 		if (data.message.trim().length == 0) {
 			setStatus({
 				success: false,
-				message: "Please enter Message",
+				message: "Please enter message",
 				error: true,
 			});
 			return;
@@ -79,6 +85,14 @@ function Contact() {
 				});
 				return;
 			}
+		}
+		if (!validateEmail(data.email)) {
+			setStatus({
+				success: false,
+				message: "Please enter valid email",
+				error: true,
+			});
+			return;
 		}
 		// Submit form
 		console.log("Form Submitted");
