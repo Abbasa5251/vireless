@@ -32,9 +32,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -48,9 +48,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -64,9 +64,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -80,9 +80,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -109,9 +109,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -125,9 +125,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -141,9 +141,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -157,9 +157,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -173,9 +173,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -199,9 +199,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -215,9 +215,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -231,9 +231,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -247,9 +247,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -263,9 +263,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -289,9 +289,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -305,9 +305,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -321,9 +321,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -337,9 +337,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
@@ -353,9 +353,9 @@ function Pricing() {
 									<svg
 										fill="none"
 										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2.5"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2.5"
 										className="w-3 h-3 text-green-500"
 										viewBox="0 0 24 24"
 									>
