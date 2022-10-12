@@ -1,5 +1,105 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import Price from "../components/Price";
+
+const prices = [
+	{
+		id: 1,
+		name: "1 bhk basic",
+		value: "₹13,499",
+		isPopular: false,
+		highlights: [
+			{
+				id: 1,
+				name: "Control upto 14 appliances",
+			},
+			{
+				id: 2,
+				name: "Usage monitor",
+			},
+			{
+				id: 3,
+				name: "Schedule ON/OFF",
+			},
+		],
+	},
+	{
+		id: 2,
+		name: "1 bhk premium",
+		value: "₹14,999",
+		isPopular: true,
+		highlights: [
+			{
+				id: 1,
+				name: "Control upto 14 appliances",
+			},
+			{
+				id: 2,
+				name: "Usage monitor",
+			},
+			{
+				id: 3,
+				name: "Glass finish",
+			},
+			{
+				id: 4,
+				name: "Touch Enabled Premium",
+			},
+			{
+				id: 5,
+				name: "Schedule ON/OFF",
+			},
+		],
+	},
+	{
+		id: 3,
+		name: "2 bhk basic",
+		value: "₹17,999",
+		isPopular: false,
+		highlights: [
+			{
+				id: 1,
+				name: "Control upto 22 appliances",
+			},
+			{
+				id: 2,
+				name: "Usage monitor",
+			},
+			{
+				id: 3,
+				name: "Schedule ON/OFF",
+			},
+		],
+	},
+	{
+		id: 4,
+		name: "2 bhk premium",
+		value: "₹20,999",
+		isPopular: false,
+		highlights: [
+			{
+				id: 1,
+				name: "Control upto 22 appliances",
+			},
+			{
+				id: 2,
+				name: "Usage monitor",
+			},
+			{
+				id: 3,
+				name: "Glass finish",
+			},
+			{
+				id: 4,
+				name: "Touch Enabled Premium",
+			},
+			{
+				id: 5,
+				name: "Schedule ON/OFF",
+			},
+		],
+	},
+];
 
 function Pricing() {
 	return (
@@ -18,354 +118,17 @@ function Pricing() {
 						only.
 					</p>
 				</div>
-				<div className="flex flex-wrap -m-4">
-					<div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-						<div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-							<h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">
-								1 BHK BASIC
-							</h2>
-							<h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">
-								₹12,999
-							</h1>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Control upto 14 appliances
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Best for existing setup
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Overload Protection
-							</p>
-							<p className="flex items-center text-gray-400 mb-6">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Monitor usage
-							</p>
-						</div>
-					</div>
-					<div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-						<div className="h-full p-6 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden">
-							<span className="bg-green-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
-								POPULAR
-							</span>
-							<h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">
-								1 BHK PREMIUM
-							</h2>
-							<h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
-								<span>₹13,999</span>
-							</h1>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Control upto 14 appliances
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Touch Enabled Premium
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Glass Finish
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Monitor usage
-							</p>
-							<p className="flex items-center text-gray-400 mb-6">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Schedule ON/OFF
-							</p>
-						</div>
-					</div>
-					<div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-						<div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-							<h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">
-								2 BHK BASIC
-							</h2>
-							<h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
-								<span>₹18,999</span>
-							</h1>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Control upto 22 appliances
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Best for existing setup
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Overload Protection
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Monitor Usage
-							</p>
-							<p className="flex items-center text-gray-400 mb-6">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Schedule ON/OFF
-							</p>
-						</div>
-					</div>
-					<div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-						<div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-							<h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">
-								2 BHK PREMIUM
-							</h2>
-							<h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
-								<span>₹20,999</span>
-							</h1>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Control upto 22 appliances
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Touch Enabled Premium
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Glass Finish
-							</p>
-							<p className="flex items-center text-gray-400 mb-2">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Monitor usage
-							</p>
-							<p className="flex items-center text-gray-400 mb-6">
-								<span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-									<svg
-										fill="none"
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2.5"
-										className="w-3 h-3 text-green-500"
-										viewBox="0 0 24 24"
-									>
-										<path d="M20 6L9 17l-5-5"></path>
-									</svg>
-								</span>
-								Schedule ON/OFF
-							</p>
-						</div>
-					</div>
+				<div className="flex flex-wrap justify-center">
+					{prices &&
+						prices.map((price) => (
+							<Price
+								key={price.id}
+								name={price.name}
+								value={price.value}
+								highlights={price.highlights}
+								isPopular={price.isPopular}
+							/>
+						))}
 				</div>
 			</div>
 		</section>
