@@ -46,7 +46,7 @@ function Contact() {
 			alert("Please enter a valid email address");
 			return;
 		}
-		fetch(`${import.meta.env.VITE_BASE_URL}/contact`, {
+		fetch(`${import.meta.env.VITE_BASE_URL}contact`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
